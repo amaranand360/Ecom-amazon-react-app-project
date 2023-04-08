@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# live demo at : https://amz-clone-react-app-0030.web.app/
+
+- Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
