@@ -17,6 +17,8 @@ function App() {
 
     auth.onAuthStateChanged((authUser)=>{
       console.log('Thisuser is >>>>',authUser.email);
+      console.log('Thisuser is >>>>',user.email);
+
 
       if (authUser) {
         // the user just logged in.
@@ -35,7 +37,7 @@ function App() {
         
       }
     })
-  },[user])
+  },[dispatch])
 
 
   return (
