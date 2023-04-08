@@ -10,13 +10,14 @@ import { useStateValue } from "./Components/StateProvider.js";
 import  auth from "./Components/Login/firebase.js";
 
 function App() {
-  const [ dispatch] = useStateValue();
+  const [{user}, dispatch] = useStateValue();
 
   useEffect( ()=>{
     //will run once when the app component loads.....
-
+    console.log('Thisuser is >>>>',user.email);
     auth.onAuthStateChanged((authUser)=>{
- 
+
+
       if (authUser) {
         // the user just logged in.
 
