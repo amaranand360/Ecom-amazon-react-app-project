@@ -31,8 +31,10 @@ import cart25 from './prosliderimage/prot-r2-4.jpg';
 
 
 function Productslider() {
-    let box =  document.getElementById('row1');
-    let box2 = document.getElementById('row2');
+    let box=300;
+    let box2=200
+    box =  document.getElementById('row1');
+    box2 = document.getElementById('row2');
     
 
     const handlePrevSec = ()=>{

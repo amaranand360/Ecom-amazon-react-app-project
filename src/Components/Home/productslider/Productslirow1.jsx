@@ -18,7 +18,8 @@ import cart37 from './prosliderimage/prot-r2-5.jpg';
 
 
 function Productslirow1() {
-    let box3 = document.querySelector('.thirdrow');
+    let box3=400;
+    box3 = document.querySelector('.thirdrow');
     let width = box3?.clientWidth;
 
     const handlePrevth = ()=>{
