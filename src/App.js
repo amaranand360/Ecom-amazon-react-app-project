@@ -12,9 +12,10 @@ import  auth from "./Components/Login/firebase.js";
 function App() {
   const [{user}, dispatch] = useStateValue();
 
+  console.log('Thisuser is >>>>',user.email);
+
   useEffect( ()=>{
     //will run once when the app component loads.....
-    console.log('Thisuser is >>>>',user.email);
     auth.onAuthStateChanged((authUser)=>{
 
 
