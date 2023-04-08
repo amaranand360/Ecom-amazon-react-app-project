@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+.home{
+    background-color: rgb(234, 237,237);
+
+}
+.Backtop{
+    padding: 15px 0px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 19px;
+    font-weight: 700;
+    /* background-color: #007185; */
+    /* background-color: #0F1111; */
+    background-color: #37475A;
+}
+a{
+    text-decoration: none;
+}
+
+.Backtop p{
+    color: #0f1111;
+
+}
+
+.Login_container_margin{
+    background-color: #fff;
+    box-shadow: 6px 4px 6px gray;
+
+}
+
+.LOGIN_PART{
+    padding-top: 25px;
+    text-align: center;
+    width: 100%;
+    height: 135px;
+    box-shadow: 0px 4px 6px gray;
+    background-color:#fff;
+    transition: all 0.2s ease-in-out;
+    align-items: center;
+
+
+}
+.LOGIN_PART p{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+    .signin_btn{
+        padding: 5px 120px;
+        background-color: transparent;
+        border-radius: 10px;
+        background-color:#fcd200;
+        color: #0f1111;
+        font-weight: 700;
+        box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
+        cursor: pointer;
+    }
+
+/* 
+.home-image{
+    width:100%;
+    z-index: -1;
+    margin-bottom:-85px;
+}
+
+.carousel-control-next-icon{
+    background-color: black; 
+    height: 50px;
+}
+.carousel-control-prev-icon{
+    background-color: black; 
+    height: 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    margin-top:-250px ;
+} */
+
+/* .home{
+    background-color: rgb(234, 237,237);
+    margin-top:0px;
+}
+
+.home_row{
+    display: flex;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

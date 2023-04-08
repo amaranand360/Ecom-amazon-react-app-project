@@ -1,0 +1,23 @@
+.iteams__container{
+    background-color: rgb(234, 237,237);
+    margin-bottom:20px;
+}
+
+
+
+    
+.pro_iteam_row{
+display: flex;
+margin-top: 20px;
+
+}
+
+@media only screen and (max-width:500px) {
+    .pro_iteam_row{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-width: auto;
+        max-width: 100%;
+        }
+}

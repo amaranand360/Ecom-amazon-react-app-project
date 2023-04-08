@@ -1,0 +1,51 @@
+.form_container {
+    max-width: 400px;
+    min-width: 250px;
+    display: flex;
+    background-color:  rgb(234, 237,237);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem auto;
+    border-radius: 6px;
+    border: 1px solid gray;
+  }
+
+  
+  .label__filed {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: bold;
+  }
+  
+.input-filed {
+    width: 100%;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .paynow {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+/*   
+  @media (min-width: 768px) {
+    .form_container {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    div {
+      flex-basis: 45%;
+    }
+  }
+   */

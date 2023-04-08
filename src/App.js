@@ -1,25 +1,89 @@
-import logo from './logo.svg';
-import './App.css';
+import React ,{useEffect} from "react";
+
+import Header from './Components/Header/Header.jsx';
+import Home from './Components/Home/Home.jsx';
+import Checkout from './Components/Checkout/Checkout';
+import Login from './Components/Login/Login.js';
+import Payment from './Components/Payment/Payment';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useStateValue } from "./Components/StateProvider.js";
+import  auth from "./Components/Login/firebase.js";
 
 function App() {
+  const [{basket,user}, dispatch] = useStateValue();
+
+  useEffect( ()=>{
+    //will run once when the app component loads.....
+
+    auth.onAuthStateChanged((authUser)=>{
+      console.log('Thisuser is >>>>',authUser.email);
+
+      if (authUser) {
+        // the user just logged in.
+
+        dispatch({
+          type:'SET_USER',
+          user: authUser
+        })
+      }
+      else{
+        // user is loged out
+        dispatch({
+          type:'SET_USER',
+          user: null
+        })
+        
+      }
+    })
+  },[])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      
+      <Router>
+        {/* <Header/> */}
+      <div>
+      <Routes>
+
+      {/* <Route path="/" element={<Home /> }/>
+      <Route path="/checkout" element={<Checkout />}/>
+      <Route path='/login' element={<Login />}/>
+      <Route path='*' element={<h1>Oops Page not found! plz enter a valid `URL`</h1>}/> */}
+      
+      <Route path="/" element={ <> <Header /> <Home /> </> }/>
+      <Route path="/checkout" element={<> <Header /> <Checkout /> </>}/>
+      <Route path='/login' element={<Login />}/>
+      <Route path='/payment' element={<><Header /> <Payment /> </>} />
+      </Routes>
+      </div>
+
+    </Router>
+           
+   
     </div>
   );
 }
 
 export default App;
+
+
+
+// import React from "react";
+
+// import Navcardrow1 from "./Components/Home/Homenavcards/Navcardrow1";
+// function App() {
+//   return (
+//     <>
+
+//     <div className='app'>
+//       <Navcardrow1 />
+//       </div>
+
+//     </>
+    
+
+//   )
+// }
+
+// export default App;

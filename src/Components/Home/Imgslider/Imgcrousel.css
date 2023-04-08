@@ -1,0 +1,35 @@
+
+.home-image{
+    width:100%;
+    z-index: -1;
+    margin-bottom:-85px;
+    /* mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)); */
+}
+
+.carousel-control-next-icon{
+    background-color: black; 
+    height: 50px;
+}
+.carousel-control-prev-icon{
+    background-color: black; 
+    height: 50px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    margin-top:-250px ;
+}
+
+.carousel-indicators [data-bs-target]{
+    display: none;
+}
+
+@media only screen and (max-width:500px) {
+    .home-image{
+        justify-content: center;
+        align-items: center;
+        min-width: auto;
+        max-width: 100%;
+        height: 150%;
+        }
+}
