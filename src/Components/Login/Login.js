@@ -18,7 +18,6 @@ function Login() {
 
         signInWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-            console.log(userCredential);
             console.log("You are succefully Login!");
 
             navigate('/');
@@ -31,7 +30,6 @@ function Login() {
 
         createUserWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-        console.log(userCredential);
         console.log("You are succefully, able to create account!");
 
 

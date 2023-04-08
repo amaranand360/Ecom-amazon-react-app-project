@@ -10,7 +10,7 @@ import { useStateValue } from "./Components/StateProvider.js";
 import  auth from "./Components/Login/firebase.js";
 
 function App() {
-  const [{basket,user}, dispatch] = useStateValue();
+  const [{user}, dispatch] = useStateValue();
 
   useEffect( ()=>{
     //will run once when the app component loads.....
@@ -35,7 +35,7 @@ function App() {
         
       }
     })
-  },[])
+  },[user])
 
 
   return (
