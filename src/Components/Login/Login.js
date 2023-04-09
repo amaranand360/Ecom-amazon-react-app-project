@@ -18,7 +18,7 @@ function Login() {
 
         signInWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-            console.log(`You are succefully Login with ${userCredential.email}`);
+            // console.log(`You are succefully Login with ${userCredential.email}`);
             
 
             navigate('/');
@@ -31,7 +31,7 @@ function Login() {
 
         createUserWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-          console.log(`You are succefully able to create account with ${userCredential.email}`);
+          // console.log(`You are succefully able to create account with ${userCredential.email}`);
 
         navigate('/');   
       }).catch((error) => alert(error.message));

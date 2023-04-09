@@ -46,7 +46,7 @@ function productinfo() {
         <Product 
         id="123452"
         title='Ant Esports KM540 Gaming Backlit Keyboard and Mouse Combo, LED Wired Gaming Keyboard, Ergonomic & Wrist Rest Keyboard, Programmable Gaming Mouse for PC/Laptop/Mac – Black'
-        price={8999}
+        price={6789}
         rating={5}
         image={product2}
         />
@@ -91,7 +91,7 @@ function productinfo() {
         <Product 
         id="123457"
         title='SAMSUNG Galaxy Z Fold 4 Cell Phone, Factory Unlocked Android Smartphone, 256GB,with Flex Mode'
-        price={89989}
+        price={89789}
         rating={4}
         image={product7}
         />
@@ -99,7 +99,7 @@ function productinfo() {
         <Product 
         id="123458"
         title='Redgear Gaming Wired Remote Control Headphone'
-        price={1499}
+        price={9998}
         rating={4}
         image={product8}
         />
@@ -109,7 +109,7 @@ function productinfo() {
         <Product 
         id="123459"
         title='CeraVe Moisturizing Cream | Body and Face Moisturizer for Dry Skin'
-        price={1499}
+        price={1799}
         rating={4}
         image={product9}
         />
@@ -125,7 +125,7 @@ function productinfo() {
         <Product 
         id="123411"
         title='Sumsung Hd Compertable LCD '
-        price={1499}
+        price={4199}
         rating={4}
         image={product11}
         />
@@ -159,7 +159,7 @@ function productinfo() {
         <Product 
         id="123417"
         title='Intel 12th Gen.i7-12650H, 40CM FHD 144Hz Gaming Desktop'
-        price={1499}
+        price={49998}
         rating={4}
         image={product15}
         />
@@ -167,7 +167,7 @@ function productinfo() {
         <Product 
         id="123418"
         title='Buffalo Check Plaid Throw Pillow Covers Cushion Case Polyester Linen for Fall Home'
-        price={1499}
+        price={1699}
         rating={4}
         image={product16}
         />
@@ -209,7 +209,7 @@ function productinfo() {
         <Product 
         id="123424"
         title=" Lewic  Glramous Man's Gray hodies"
-        price={1499}
+        price={4598}
         rating={4}
         image={product21}
         />
@@ -221,14 +221,14 @@ function productinfo() {
         <Product 
         id="123413"
         title= "Lewic  Glramous Man's Gray hodies(Black)"
-        price={1499}
+        price={5699}
         rating={4}
         image={product22}
         />
          <Product 
         id="123419"
         title='Hp Laptop Carrying bag'
-        price={1499}
+        price={2479}
         rating={4}
         image={product23}
         />
@@ -236,7 +236,7 @@ function productinfo() {
     <Product 
         id="123414"
         title="Watch shows how's your time going on!"
-        price={1499}
+        price={4899}
         rating={3}
         image={product24}
         />
@@ -244,7 +244,7 @@ function productinfo() {
     <Product 
         id="123425"
         title="Black stylish Man's T-shirt"
-        price={1499}
+        price={1899}
         rating={4}
         image={product25}
         />

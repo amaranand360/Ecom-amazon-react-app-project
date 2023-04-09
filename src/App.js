@@ -12,11 +12,12 @@ import  auth from "./Components/Login/firebase.js";
 function App() {
   const [{user}, dispatch] = useStateValue();
 
-  console.log('Thisuser is >>>>',user.email);
 
   useEffect( ()=>{
     //will run once when the app component loads.....
     auth.onAuthStateChanged((authUser)=>{
+      
+        console.log('This user mail is >>>>',authUser.email);
 
 
       if (authUser) {
@@ -44,6 +45,8 @@ function App() {
       
       <Router>
         {/* <Header/> */}
+        
+
       <div>
       <Routes>
 
@@ -56,6 +59,8 @@ function App() {
       <Route path="/checkout" element={<> <Header /> <Checkout /> </>}/>
       <Route path='/login' element={<Login />}/>
       <Route path='/payment' element={<><Header /> <Payment /> </>} />
+      <Route path='/user' element={<h1>{user} </h1>} />
+
       </Routes>
       </div>
 
