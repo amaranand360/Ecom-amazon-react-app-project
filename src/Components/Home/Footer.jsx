@@ -7,6 +7,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import "./footer.css";
 
 function Footer() {
+  const date = new Date().getFullYear();
   return (
     <div className="footer">
       <div class="about-us">
@@ -64,7 +65,7 @@ function Footer() {
       <div className="footer">
         <div className="intro">
           <h4>Created by Amar Kumar</h4>
-          <p>@Anandraj All Right Reserve</p>
+          <p>@Anandraj All Right Reserve,{date}</p>
         </div>
         <div className="footer_icons">
           <a
