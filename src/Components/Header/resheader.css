@@ -166,8 +166,8 @@
     }
     
     .header_search {
-      margin-right: 1px;
-      margin-left: -3px;
+      margin-right: 2px;
+      margin-left: 2px;
     }
     
     .searchinput {
@@ -177,13 +177,12 @@
       height: 32px;
       width: 29px;
     }
-    
     .responsive{
       display: none;
     }
      
     .header-option {
-      margin: 1px 3px;
+      margin: 1px 2px;
       font-size: 10px;
     }
   }

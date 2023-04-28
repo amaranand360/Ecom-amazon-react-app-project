@@ -24,12 +24,32 @@
     display: none;
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:960px) {
     .home-image{
         justify-content: center;
         align-items: center;
         min-width: auto;
         max-width: 100%;
-        height: 150%;
+        height: 100%;
+        height: 250px;
         }
+        .carousel-control-next, .carousel-control-prev {
+            position: absolute;
+        }  
+ 
+}
+
+@media only screen and (max-width:660px) {
+    .home-image{
+        justify-content: center;
+        align-items: center;
+        min-width: auto;
+        max-width: 100%;
+        height: 100%;
+        height: 220px;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            position: absolute;
+            margin-top:0px ;
+        }   
 }

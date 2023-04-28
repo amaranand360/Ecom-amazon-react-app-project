@@ -106,7 +106,7 @@ function Navcardrow1() {
      </div>
 
 
-    <div className='product-cards last'>
+    <div className='product-cards '>
         <h4 className='product-heading'>Easy returns</h4>
 
         <div className='product-image'>

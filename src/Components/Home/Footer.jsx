@@ -13,7 +13,7 @@ function Footer() {
             <div class="about-us">
                 <div class="summary">
                     <ul>
-                        <p> Get to Know Us</p>
+                        <p> Get to Know with Amazon</p>
                         <li> Careers</li>
                         <li> Blog</li>
                         <li> About Amazon</li>
@@ -49,7 +49,7 @@ function Footer() {
                     </ul>
                 </div>
 
-                <div class="summary last">
+                <div class="summary lastfooter">
                     <ul>
                         <p> Let Us Help You</p>
                         <li>    Amazon and COVID-19</li>

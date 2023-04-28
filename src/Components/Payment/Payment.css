@@ -14,17 +14,17 @@
   
   .label__filed {
     display: block;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.15rem;
     font-weight: bold;
   }
   
 .input-filed {
     width: 100%;
-    padding: 0.25rem;
+    padding: 0.125rem;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+    margin-bottom: .35rem;
+    font-size: .9rem;
   }
   
   .paynow {
@@ -34,6 +34,7 @@
     border-radius: 0.25rem;
     padding: 0.5rem 1rem;
     font-size: 1rem;
+    margin: .5rem .5rem;
     cursor: pointer;
   }
 /*   

@@ -22,7 +22,6 @@
     padding: 5px;
     overflow-x: hidden;
     background-color: #fff;
-
     height: max-content;
 }
 .checkout_title{
@@ -35,3 +34,27 @@
 }
 
 
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .checkout {
+      flex-direction: column;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    
+    .checkout_left, .checkout_right {
+      width: 100%;
+    }
+    
+    .checkout_title {
+      margin-right: 0;
+    }
+    
+    .checkout_add {
+      height: 120px;
+    }
+    
+    .checkout_msg {
+      font-size: 14px;
+    }
+  }

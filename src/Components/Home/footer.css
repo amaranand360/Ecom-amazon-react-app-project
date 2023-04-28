@@ -51,3 +51,18 @@
        cursor: pointer;
    }
    
+   /* For screens smaller than 768px */
+@media only screen and (max-width: 767px) {
+    .about-us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .summary {
+        margin-bottom: 40px;
+    }
+
+    .footer_icons {
+        margin-top: 40px;
+    }
+}

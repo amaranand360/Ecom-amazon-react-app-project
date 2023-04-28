@@ -41,7 +41,7 @@ function Header() {
                     <span className='header_op_l1'>Deliver to </span>
                     <span className='header_op_l2'> India</span>
                 </div>
-                <div className='header_search'>
+                <div className='header_search '>
                     <div className='Searchall'>
                         <p >All</p>
                     </div>
@@ -56,7 +56,7 @@ function Header() {
 
                 <div className='header_nav'>
 
-                    <div className='header-option'>
+                    <div className='header-option responsive'>
                         <span className='header_op_l1'> <img src={india} style={{ height: '22px', width: '40px' }} alt="ERROR" /> </span>
                         <span className='header_op_l2'>EN <BsFillCaretDownFill /> </span>
                     </div>
@@ -69,15 +69,15 @@ function Header() {
                           { user ? '   Log Out ':' Sign In '}
                         </span>    </Link>              
                         </span>
-                        <span className='header_op_l2'>Account & Lists <BsFillCaretDownFill /> </span>
+                        <span className='header_op_l2 responsive'>Account & Lists <BsFillCaretDownFill /> </span>
                     </div>
 
-                    <div className='header-option'>
+                    <div className='header-option responsive'>
                         <span className='header_op_l1'>Return</span>
                         <span className='header_op_l2'>& Order</span>
                     </div>
 
-                    <div className='header-option'>
+                    <div className='header-option responsive'>
                         <span className='header_op_l1'>Your</span>
                         <span className='header_op_l2'>Prime</span>
                     </div>

@@ -12,7 +12,7 @@ margin-top: 20px;
 
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:960px) {
     .pro_iteam_row{
         flex-wrap: wrap;
         justify-content: center;

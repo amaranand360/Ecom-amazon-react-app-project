@@ -49,4 +49,8 @@
     box-shadow: 0 2px 5px 0 rgba(213,217,217,.5);
 }
 
-
+@media only screen and (max-width:960px) {
+ .product{
+    margin-bottom: 10px;
+ }  
+}

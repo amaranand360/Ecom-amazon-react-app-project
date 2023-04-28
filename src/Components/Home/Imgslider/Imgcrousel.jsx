@@ -44,7 +44,7 @@ export default function Imgcrousel() {
         <img
           className="d-block w-100 home-image"
         src ={image4}
-          alt="Third slide"
+          alt="fourth slide"
         />
       </Carousel.Item>
 
@@ -52,7 +52,7 @@ export default function Imgcrousel() {
         <img
           className="d-block w-100 home-image"
         src ={image5}
-          alt="Third slide"
+          alt="6 slide"
         />
       </Carousel.Item>
 
@@ -60,7 +60,7 @@ export default function Imgcrousel() {
         <img
           className="d-block w-100 home-image"
         src ={image6}
-          alt="Third slide"
+          alt="6 slide"
         />
       </Carousel.Item>
 
@@ -68,7 +68,7 @@ export default function Imgcrousel() {
         <img
           className="d-block w-100 home-image"
         src ={image7}
-          alt="Third slide"
+          alt="7 slide"
         />
       </Carousel.Item>
 
@@ -76,7 +76,7 @@ export default function Imgcrousel() {
         <img
           className="d-block w-100 home-image"
         src ={image8}
-          alt="Third slide"
+          alt="8 slide"
         />
       </Carousel.Item>
 
