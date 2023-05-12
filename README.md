@@ -30,9 +30,23 @@
 - Login page using Google Firebase
 
 # 📷 Screenshots
-Screenshot of the home page
+<h3>Screenshot of the home page</h3>
 
-Screenshot of the checkout page
+![proj1](https://github.com/amaranand360/amazon-clone-react-app-project/assets/122713145/a299869f-6291-4546-aa86-c91d2422ae1a)
+
+<h3>Screenshot of the checkout page</h3>
+
+![Screenshot (85)](https://github.com/amaranand360/amazon-clone-react-app-project/assets/122713145/0f9d8090-fc49-40f0-9afa-24a9a3c0ba33)
+
+
+<h3>Screenshot of the footer part</h3>
+
+![Screenshot (84)](https://github.com/amaranand360/amazon-clone-react-app-project/assets/122713145/deb0e854-fde1-4972-8fe7-9f4b16757d3d)
+
+# 📷 Responsive Screenshots
+
+![Screen Shot 2023-05-13 at 00 16 18](https://github.com/amaranand360/amazon-clone-react-app-project/assets/122713145/fcec751c-f2a3-4bf2-a638-f2650dcab4c1)
+
 
 # 💻 Demo
 You can see a live demo of the project at: https://amz-clone-react-app-0030.web.app/  
