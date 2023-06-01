@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import Subheader from './Subheader';
+import toast from "react-hot-toast";
 
 import  { Link }  from "react-router-dom";
 
@@ -24,6 +25,7 @@ function Header() {
     const handleAuthentication = () => {
         if (user) {
           auth.signOut();
+          toast.success("Logout successfully");
           console.log("logout")
         }
       };

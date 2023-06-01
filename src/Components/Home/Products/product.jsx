@@ -1,11 +1,13 @@
 import React from 'react';
 import './product.css';
 import { useStateValue } from '../../StateProvider';
+import toast from "react-hot-toast";
 
 function Product({ id, title, price, rating, image }) {
   const[{ basket },dispatch] = useStateValue();
 
   const addToBasket = () => {
+    toast.success("Product added successfully");
     console.log("this is the basket len ",basket?.length);
     dispatch({
       type:'ADD_TO_BASKET',
@@ -17,6 +19,7 @@ function Product({ id, title, price, rating, image }) {
         image:image,      
       },
      });
+     
   };
   
   return (

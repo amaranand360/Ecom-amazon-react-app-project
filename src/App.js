@@ -1,4 +1,5 @@
 import React ,{useEffect} from "react";
+import { Toaster } from 'react-hot-toast';
 
 import Header from './Components/Header/Header.jsx';
 import Home from './Components/Home/Home.jsx';
@@ -62,6 +63,7 @@ function App() {
       <Route path='/user' element={<h1>{user} </h1>} />
 
       </Routes>
+      < Toaster />
       </div>
 
     </Router>

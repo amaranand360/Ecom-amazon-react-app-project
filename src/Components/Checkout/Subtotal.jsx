@@ -3,6 +3,7 @@ import "./Subtotal.css";
 import { useStateValue } from '../StateProvider';
 import { getBasketTotal } from "../reducer";
 import { useNavigate } from 'react-router-dom';
+import toast from "react-hot-toast";
 
 
 function Subtotal() {
@@ -11,14 +12,24 @@ function Subtotal() {
   const amount = getBasketTotal(basket);
 
   const hanblepaymentclick = ()=>{
-    if(user){
+    if ((basket.length <= 0 ))
+        {
+          // do nothing
+          toast.error("Your cart is empty");
+        }
+
+    else if(user){
+    toast.success("Procuding for Payment");
     navigate('/payment',{ 
       state: amount,
     
-  })
+   })
+   
   }
   else{
+    toast.error("Login first");
     navigate('/login')
+
   }
   }
   return (

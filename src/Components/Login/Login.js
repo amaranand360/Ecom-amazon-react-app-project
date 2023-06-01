@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import toast from "react-hot-toast";
 import {signInWithEmailAndPassword} from "firebase/auth";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import './Login.css'
@@ -19,8 +20,7 @@ function Login() {
         signInWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
             // console.log(`You are succefully Login with ${userCredential.email}`);
-            
-
+            toast.success(`Wellcome Back ${email}`);
             navigate('/');
         })
         .catch((error) => alert(error.message));
@@ -32,7 +32,7 @@ function Login() {
         createUserWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
           // console.log(`You are succefully able to create account with ${userCredential.email}`);
-
+          toast.success(`Account Created succefully with ${email}`);
         navigate('/');   
       }).catch((error) => alert(error.message));
 

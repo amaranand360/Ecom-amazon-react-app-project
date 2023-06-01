@@ -3,6 +3,7 @@ import './Payment.css';
 import logo from '../Login/images/amazonlogo.png';
 import { useLocation,Link,useNavigate } from 'react-router-dom';
 import { useStateValue } from '../StateProvider';
+import toast from "react-hot-toast";
 
 
 const PaymentPage = () => {
@@ -42,6 +43,7 @@ const PaymentPage = () => {
     setCardCCV(event.target.value);
   };
   
+  
 
 
   const handleSubmit = (event) => {
@@ -59,8 +61,11 @@ const PaymentPage = () => {
     // expiryDate: expiryDate,
     // cvv: cvv,
     // };
+    //toast.success(`Transaction Successfull`);
     basket.length =0;
+    toast.success("order placed successfully");
     navigate('/');
+
   };
 
   return (
@@ -124,7 +129,7 @@ const PaymentPage = () => {
         </div>
         <div>
           <label className='label__filed' htmlFor="cardccv">CCV:</label>
-          <input className='label__filed' type="number" id="cardccv" value={cardccv} onChange={handleCardcccvhange} maxlength="3" required />
+          <input className='label__filed' type="password" id="cardccv" value={cardccv}  onChange={handleCardcccvhange} maxlength="3" required />
           </div>
        
 
