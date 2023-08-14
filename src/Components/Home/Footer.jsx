@@ -32,7 +32,7 @@ function Footer() {
                         <li> Advertise Your Products</li>
                         <li> Self-Publish with Us</li>
                         <li> Host an Amazon Hub</li>
-                        <li>›See More Make Money with Us</li>
+                        <li>See More Make Money with Us</li>
 
 
                     </ul>
@@ -68,7 +68,8 @@ function Footer() {
             <div className='footer'>
                 <div className='intro'>
                     <h4>Created by Amar Kumar</h4>
-                    <p>@Anandraj All Right Reserve</p>
+                    <p>This site is for educational purposes only</p>
+
                 </div>
                 <div className='footer_icons'>
                 <a href='https://github.com/amaranand360'> <li>   <AiFillGithub /></li> </a> 

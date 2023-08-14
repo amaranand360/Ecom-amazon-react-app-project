@@ -22,7 +22,7 @@
   }
   
   .Searchicon {
-    height: 6.1vh;
+    height: 40px;
     width: 6vh;
     font-size: 19px;
     display: flex;
@@ -35,7 +35,7 @@
   
   .Searchall {
     padding: 8px;
-    height: 6.1vh;
+    height: 40px;
     width: 6vh;
     margin-left: 20px;
     font-weight: 600;

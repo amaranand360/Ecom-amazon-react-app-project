@@ -19,7 +19,6 @@ function Login() {
 
         signInWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-            // console.log(`You are succefully Login with ${userCredential.email}`);
             toast.success(`Wellcome Back ${email}`);
             navigate('/');
         })
@@ -31,7 +30,6 @@ function Login() {
 
         createUserWithEmailAndPassword(auth,email, password)
         .then((userCredential) => {
-          // console.log(`You are succefully able to create account with ${userCredential.email}`);
           toast.success(`Account Created succefully with ${email}`);
         navigate('/');   
       }).catch((error) => alert(error.message));
@@ -59,7 +57,7 @@ function Login() {
             className='login__signInButton'>Sign In</button>
         </form>
         <p>
-        By signing-in you agree to Amazon  Clone Conditions of Use & Sale.
+        By signing-in you agree to Terms & Conditions of Use & Sale.
         Please see our Privacy Notice, our Cookies Notice and our
         Interest-Based Ads Notice.
         </p>

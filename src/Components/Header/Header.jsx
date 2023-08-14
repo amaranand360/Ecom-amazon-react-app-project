@@ -48,7 +48,7 @@ function Header() {
                         <p >All</p>
                     </div>
                     <input
-                        className='searchinput' type="text" placeholder='Search Amazon' />
+                        className='searchinput' type="text" placeholder='Search your product' />
                     <div className='Searchicon'>
                         <FaSearch />
                     </div>
@@ -89,12 +89,7 @@ function Header() {
                             <span className='header_op_l2'>Cart</span>
                         </div>
                     </Link>
-                    {/* <a style={{textDecoration:'none'}} href='/checkout' >
-                    <div className='header-option'>
-                        <span> <FaShoppingCart /> {basket?.length} </span>
-                        <span className='header_op_l2'>Cart</span>
-                    </div>
-                    </a> */}
+                  
                 </div>
             </div>
 
@@ -121,3 +116,10 @@ export default Header;
     // if(email === null){     //  default case...
     //     email = 'Guest';
     // }
+
+      /* <a style={{textDecoration:'none'}} href='/checkout' >
+                    <div className='header-option'>
+                        <span> <FaShoppingCart /> {basket?.length} </span>
+                        <span className='header_op_l2'>Cart</span>
+                    </div>
+                    </a> */
