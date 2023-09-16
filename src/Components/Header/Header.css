@@ -77,7 +77,7 @@
     text-decoration: none;
   }
 
-/*Header 2 stylingpart.*/
+/*SubHeader stylingpart.*/
 .HEADER2{
   background-color: #232f3e;
   height: 38px;
@@ -188,9 +188,6 @@
     }
   }
   
-
-  /* Default styles for header */
-
 
 /* Styles for screens smaller than 768px */
 @media screen and (max-width: 767px) {

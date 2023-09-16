@@ -15,72 +15,72 @@ import image8 from './images/home8.jpg';
 export default function Imgcrousel() {
   return (
     <div>
-    <Carousel>
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-          src={image1}
-          alt="First slide"
-        />
-      </Carousel.Item>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image1}
+            alt="First slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-          src={image2}
-          alt="Second slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image2}
+            alt="Second slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image3}
-          alt="Third slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image3}
+            alt="Third slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image4}
-          alt="fourth slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image4}
+            alt="fourth slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image5}
-          alt="6 slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image5}
+            alt="6 slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image6}
-          alt="6 slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image6}
+            alt="6 slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image7}
-          alt="7 slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image7}
+            alt="7 slide"
+          />
+        </Carousel.Item>
 
-      <Carousel.Item>
-        <img
-          className="d-block w-100 home-image"
-        src ={image8}
-          alt="8 slide"
-        />
-      </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 home-image"
+            src={image8}
+            alt="8 slide"
+          />
+        </Carousel.Item>
 
-    </Carousel>
+      </Carousel>
 
     </div>
   );

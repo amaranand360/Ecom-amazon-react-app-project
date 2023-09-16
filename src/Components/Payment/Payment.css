@@ -37,16 +37,3 @@
     margin: .5rem .5rem;
     cursor: pointer;
   }
-/*   
-  @media (min-width: 768px) {
-    .form_container {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-  
-    div {
-      flex-basis: 45%;
-    }
-  }
-   */

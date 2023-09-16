@@ -1,16 +1,14 @@
-.nav__card{
+.nav__card {
     display: flex;
     justify-content: space-around;
-    max-height:500px;
-    max-width:390px;
+    max-height: 500px;
+    max-width: 390px;
     width: fit-content;
 }
-.product_card_info{
 
-    /* margin-left:25px;
-    padding: 20px 10px; */
+.product_card_info {
     position: relative;
-    background-color:#fff;
+    background-color: #fff;
     box-sizing: border-box;
-    box-shadow:2px 1px 1px  #fff;
+    box-shadow: 2px 1px 1px #fff;
 }

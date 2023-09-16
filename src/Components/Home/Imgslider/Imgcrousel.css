@@ -1,55 +1,59 @@
-
-.home-image{
-    width:100%;
+.home-image {
+    width: 100%;
     z-index: -1;
-    margin-bottom:-85px;
-    /* mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0)); */
+    margin-bottom: -85px;
 }
 
-.carousel-control-next-icon{
-    background-color: black; 
-    height: 50px;
-}
-.carousel-control-prev-icon{
-    background-color: black; 
+.carousel-control-next-icon {
+    background-color: black;
     height: 50px;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-prev-icon {
+    background-color: black;
+    height: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
     position: absolute;
-    margin-top:-250px ;
+    margin-top: -250px;
 }
 
-.carousel-indicators [data-bs-target]{
+.carousel-indicators [data-bs-target] {
     display: none;
 }
 
 @media only screen and (max-width:960px) {
-    .home-image{
+    .home-image {
         justify-content: center;
         align-items: center;
         min-width: auto;
         max-width: 100%;
         height: 100%;
         height: 250px;
-        }
-        .carousel-control-next, .carousel-control-prev {
-            position: absolute;
-        }  
- 
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+    }
+
 }
 
 @media only screen and (max-width:660px) {
-    .home-image{
+    .home-image {
         justify-content: center;
         align-items: center;
         min-width: auto;
         max-width: 100%;
         height: 100%;
         height: 220px;
-        }
-        .carousel-control-next, .carousel-control-prev {
-            position: absolute;
-            margin-top:0px ;
-        }   
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        position: absolute;
+        margin-top: 0px;
+    }
 }

@@ -1,104 +1,110 @@
 .header {
-    height: 60px;
-    display: flex;
-    align-items: center;
-    background-color: #131921;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  
-  .amz_logo {
-    width: 100px;
-    object-fit: contain;
-    margin: 10px 20px;
-    margin-top: 15px;
-    justify-content: center;
-  }
-  
-  .location {
-    color: gray;
-    font-size: 20px;
-  }
-  
-  .Searchicon {
-    height: 6.1vh;
-    width: 6vh;
-    font-size: 19px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #cd9042;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-  }
-  
-  .Searchall {
-    padding: 8px;
-    height: 6.1vh;
-    width: 6vh;
-    margin-left: 20px;
-    font-weight: 600;
-    background-color: lightgray;
-    border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px;
-  }
-  
-  .header_search {
-    display: flex;
-    flex: 1;
-    align-items: center;
-    border-radius: 24px;
-    margin-right: 20px;
-  }
-  
-  .searchinput {
-    padding: 8px;
-    border-bottom: #cd9042;
-    border: none;
-    width: 100%;
-    font-size: 15px;
-  }
-  
-  .header_nav {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  
-  .header-option {
-    display: flex;
-    margin: 1px 10px;
-    color: white;
-    flex-direction: column;
-    font-size: 12px;
-  }
-  
-  .cartlink {
-    text-decoration: none;
-  }
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 
-/*Header 2 stylingpart.*/
-.HEADER2{
+.amz_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 10px 20px;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.location {
+  color: gray;
+  font-size: 20px;
+}
+
+.Searchicon {
+  height: 6.1vh;
+  width: 6vh;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cd9042;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.Searchall {
+  padding: 8px;
+  height: 6.1vh;
+  width: 6vh;
+  margin-left: 20px;
+  font-weight: 600;
+  background-color: lightgray;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.header_search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin-right: 20px;
+}
+
+.searchinput {
+  padding: 8px;
+  border-bottom: #cd9042;
+  border: none;
+  width: 100%;
+  font-size: 15px;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-option {
+  display: flex;
+  margin: 1px 10px;
+  color: white;
+  flex-direction: column;
+  font-size: 12px;
+}
+
+.cartlink {
+  text-decoration: none;
+}
+
+/*Subheader  stylingpart.*/
+.HEADER2 {
   background-color: #232f3e;
   height: 38px;
   display: flex;
   overflow-x: hidden;
 }
-.Left_nav{
+
+.Left_nav {
   width: 83%;
 }
-.menuicon{
+
+.menuicon {
   position: relative;
   font-size: 20px;
   margin-right: 5px;
 }
-.Left_nav ul,.Right_nav ul{
+
+.Left_nav ul,
+.Right_nav ul {
   list-style-type: none;
   display: flex;
   color: white;
   padding-top: 0px;
 }
-.Left_nav ul li,.Right_nav ul li{
+
+.Left_nav ul li,
+.Right_nav ul li {
   text-align: center;
   justify-content: center;
   padding-right: 20px;
@@ -108,105 +114,111 @@
   cursor: pointer;
 
 }
-.Left_nav ul li:hover{
+
+.Left_nav ul li:hover {
   scale: 1.1;
-  color:wheat;
+  color: wheat;
 
 }
 
-  
-  @media screen and (max-width: 960px) {
-    .header {
-      height: 50px;
-    }
-    
-    .amz_logo {
-      width: 80px;
-      margin-left: 10px;
-      margin-top: 10px;
-    }
-    
-    .location {
-      font-size: 16px;
-    }
-    
-    .header_search {
-      margin-right: 10px;
-    }
-    
-    .searchinput {
-      font-size: 14px;
-    }
-    
-    .Searchicon,.Searchall{
-      height: 38px;
-      width: 35px;
-    }
-     
-    .header-option {
-      margin: 1px 5px;
-      font-size: 11px;
-    }
+
+@media screen and (max-width: 960px) {
+  .header {
+    height: 50px;
   }
-  
-  @media screen and (max-width: 660px) {
-    .header {
-      height: 45px;
-      overflow-x: hidden;
-    }
-    
-    .amz_logo {
-      width: 60px;
-      margin-left: 2px;
-      margin-top: 2px;
-    }
-    
-    .location {
-      font-size: 14px;
-    }
-    
-    .header_search {
-      margin-right: 2px;
-      margin-left: 2px;
-    }
-    
-    .searchinput {
-      font-size: 10px;
-    }
-    .Searchicon,.Searchall{
-      height: 32px;
-      width: 29px;
-    }
-    .responsive{
-      display: none;
-    }
-     
-    .header-option {
-      margin: 1px 2px;
-      font-size: 10px;
-    }
+
+  .amz_logo {
+    width: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
-  
 
-  /* Default styles for header */
+  .location {
+    font-size: 16px;
+  }
+
+  .header_search {
+    margin-right: 10px;
+  }
+
+  .searchinput {
+    font-size: 14px;
+  }
+
+  .Searchicon,
+  .Searchall {
+    height: 38px;
+    width: 35px;
+  }
+
+  .header-option {
+    margin: 1px 5px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .header {
+    height: 45px;
+    overflow-x: hidden;
+  }
+
+  .amz_logo {
+    width: 60px;
+    margin-left: 2px;
+    margin-top: 2px;
+  }
+
+  .location {
+    font-size: 14px;
+  }
+
+  .header_search {
+    margin-right: 2px;
+    margin-left: 2px;
+  }
+
+  .searchinput {
+    font-size: 10px;
+  }
+
+  .Searchicon,
+  .Searchall {
+    height: 32px;
+    width: 29px;
+  }
+
+  .responsive {
+    display: none;
+  }
+
+  .header-option {
+    margin: 1px 2px;
+    font-size: 10px;
+  }
+}
 
 
-/* Styles for screens smaller than 768px */
+
+
 @media screen and (max-width: 767px) {
-  .Left_nav{
+  .Left_nav {
     width: 78%;
   }
-  .menuicon{
+
+  .menuicon {
     margin-right: 3px;
     margin-left: -30px;
   }
-  .Left_nav ul li,.Right_nav ul li{
-    
+
+  .Left_nav ul li,
+  .Right_nav ul li {
+
     padding-right: 8px;
     font-size: 10px;
     font-weight: 500;
     padding-top: 5px;
     cursor: pointer;
-  
+
   }
 }
