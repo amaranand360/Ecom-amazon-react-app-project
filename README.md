@@ -1,4 +1,4 @@
-# 💻 You can see a live demo of the project at :  https://amz-clone-react-app-0030.web.app/  
+# 💻 You can see a live demo of the project at :https://ecom-amazon-react-app.vercel.app/
 
 # 🛍️ Amazon Clone
 <h4> This is a clone of the Amazon website built using React JS. It includes features such as adding items to a basket, removing items from a basket, a payment page, a login page using Google Firebase, a checkout page, image sliders, and product carousels. </h4>
