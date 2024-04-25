@@ -29,6 +29,7 @@
 - Payment page
 - Login page using Google Firebase
 
+
 # 📷 Screenshots
 <h3>Screenshot of the home page</h3>
 
@@ -49,8 +50,15 @@
 
 
 # 💻 Demo
-You can see a live demo of the project at: https://amz-clone-react-app-0030.web.app/  
+You can see a live demo of the project at: https://ecom-amazon-react-app.vercel.app/  
 
+## featuers
+  -  Developed the frontend of the project using JavaScript and React, with CSS for styling.
+  -  Utilized Redux and useContext for state management, ensuring efficient data handling and seamless updates throughout the application.
+  -  Implemented user authentication features including login and sign-up functionalities utilizing Firebase authentication service.
+  -  Implemented filtering functionality for products based on price and category.
+  -  Integrated features for adding and removing products from the shopping cart, Included payment integration for seamless checkout process
+    
 #Credits
 
 - This project was created by AMAR KUMAR.
