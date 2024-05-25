@@ -73,8 +73,8 @@ function Footer() {
                 </div>
                 <div className='footer_icons'>
                 <a href='https://github.com/amaranand360'> <li>   <AiFillGithub /></li> </a> 
-                <a href='https://www.linkedin.com/in/amar-kumar-nb0030/'> <li>   <AiFillLinkedin /></li> </a> 
-                <a href='https://www.instagram.com/amaranand_371/'> <li>   <AiFillInstagram /></li> </a> 
+                <a href='https://www.linkedin.com/in/dev-amar-kumar/'> <li>   <AiFillLinkedin /></li> </a> 
+                <a href='https://www.instagram.com/amar_kumar_30/'> <li>   <AiFillInstagram /></li> </a> 
                 <a href='https://twitter.com/amarengcs0030'> <li>    <AiOutlineTwitter /> </li> </a> 
                 <a href='https://www.facebook.com/AMARKUMAR0030/'> <li>   <AiFillFacebook /> </li> </a> 
 
